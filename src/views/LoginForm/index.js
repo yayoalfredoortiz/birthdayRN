@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import { StyleSheet, View, } from 'react-native'
 import HBButton from '../../components/HBButton';
 import HBTextInput from '../../components/HBTextInput';
-import firebase from '../../utils/firebase'
+import firebase from '../../utils/firebase';
+import {validateEmail} from '../../utils/validations'
 
 export default function LoginForm(props) {
 
